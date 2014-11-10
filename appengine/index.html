@@ -1,0 +1,58 @@
+<html>
+<head>
+    <title>gaepytz</title>
+    <style>
+table {
+    text-align: left;
+    border-spacing: 0;
+    border-collapse: collapse;
+    border: 1px solid #999;
+    padding: 0;
+}
+td, th {
+    border: 1px solid #999;
+    padding: 5px;
+}
+    </style>
+</head>
+<body>
+    <h2>spytz</h2>
+    <p>Testing the <a href="https://github.com/chaosity/spytz/">spytz</a> library.</p>
+    <table width="1000px">
+        <tr>
+            <td width="50%">
+                <h2>Tests</h2>
+                <h4>Batch Tests</h4>
+                <ul>
+                    <li><a href="/test/list_all_tzs">List all tz's</a></li>
+                    <li><a href="/test/calc_all_tzs">Calc all tz's</a></li>
+                    <li><a href="/test/perf_all_tzs">Perf all tz's</a></li>
+                </ul>
+                <h4>Performance Tests</h4>
+                <p>Basic performance tests - spytz vs pytz: <a href="/test1">test 1</a>.</p>
+                <p>Basic performance tests - spytz vs pytz: <a href="/test2">test 2</a>.</p>
+                <h4>Side-by-side Tests</h4>
+                <p>Pytz vs Spytz - timeit test: <a href="/timeit">run</a>.</p>
+            </td>
+            <td width="50%">
+                <h2>Spytz Actions:</h2>
+                <h4>Update</h4>
+                <ul>
+                    <li><a href="/test/update?f=n">Update tz data</a></li>
+                    <li><a href="/test/update?f=y">Force update tz data</a></li>
+                </ul>
+                <h4>Flush Cache</h4>
+                <ul>
+                    <li><a href="/test/flush">Flush all cache</a></li>
+                    <li><a href="/test/flush?type=app">Flush app / memcache cache</a></li>
+                    <li><a href="/test/flush?type=local">Flush local / module cache</a></li>
+                </ul>
+                <h4>Delete</h4>
+                <ul>
+                    <li><a href="/test/delete">Delete all tz records</a></li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,5 @@
+cron:
+- description: Spytz TimeZone Auto-Update
+  url: /cron/summary
+  schedule: every monday 09:00
+  timezone: UTC

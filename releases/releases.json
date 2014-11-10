@@ -1,0 +1,10 @@
+{
+    "releases": {
+        "2014.4": {
+            "hashtype": "sha1", 
+            "hash": "b97271de5f343497d64d309c9a4bc52857764787", 
+            "filename": "spytz-zoneinfo-2014.4.tar.gz"
+        }
+    }, 
+    "latest": "2014.4"
+}

@@ -1,0 +1,26 @@
+application: pytz-app
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+# Static File URLs
+- url: /releases
+  static_dir: releases
+
+- url: /test/.*
+  script: pytzapp.app
+
+- url: /.*
+  script: main.app
+
+libraries:
+- name: webapp2
+  version: "2.5.2"
+
+- name: jinja2
+  version: "2.6"
+
+builtins:
+- appstats: on # url: /_ah/stats/
